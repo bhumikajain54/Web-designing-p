@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    overflow: auto;
+    width: 2000px;
+    height: 3000px;
+}
+
+.fixed-div {
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    z-index: 1200;
+}
+
+.container {
+    width: 800px;
+    height: 2000px;
+    background-color: #fff;
+    border: 1px solid #000;
+    position: relative;
+    overflow: auto;
+    /* Ensure scrollbars appear */
+}
+
+.content {
+    padding: 40px;
+    margin-top: 100px;
+    /* Ensure content starts below the fixed div */
+}
+
+p {
+    line-height: 1.6;
+    top: 100px;
+    left: 100px;
+}

@@ -1,0 +1,31 @@
+/*General Sibling Selectors*/
+
+div~p {
+    color: #009900;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0px;
+    text-align: center;
+}
+
+
+/*Adjacent Selectors*/
+
+div+p {
+    color: #009900;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0px;
+    text-align: center;
+}
+
+
+/*Child Selectors*/
+
+div>p {
+    color: #009900;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0px;
+    text-align: center;
+}
